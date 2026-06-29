@@ -1,17 +1,20 @@
+```gitignore
+# Python
 __pycache__/
 *.pyc
+
+# Virtual Environment
 .venv/
 venv/
 .env
-data/raw/*
-!data/raw/.gitkeep
-data/processed/*
-!data/processed/.gitkeep
-models/*
-!models/.gitkeep
-reports/*
-!reports/.gitkeep
-*.pkl
-*.joblib
+
+# Large experiment files
 mlruns/
 
+# Ignore only trained model binaries
+*.pkl
+*.joblib
+
+# Keep datasets, models, and reports in GitHub
+# (Removed rules that ignored data/, models/, and reports/)
+```

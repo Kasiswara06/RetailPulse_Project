@@ -1,0 +1,42 @@
+{
+  "segmentation": {
+    "n_customers": 3000,
+    "segments": {
+      "Potential Loyalists": 874,
+      "Loyal Customers": 840,
+      "Champions": 432,
+      "Hibernating": 428,
+      "At Risk": 352,
+      "Lost": 74
+    }
+  },
+  "forecasting": {
+    "mape_pct": 74.15,
+    "horizon_days": 30
+  },
+  "drift": {
+    "columns": {
+      "quantity": {
+        "psi": 0.0002,
+        "status": "Stable \u2013 no significant drift"
+      },
+      "unit_price": {
+        "psi": 0.0014,
+        "status": "Stable \u2013 no significant drift"
+      },
+      "revenue": {
+        "psi": 0.0038,
+        "status": "Stable \u2013 no significant drift"
+      },
+      "discount_pct": {
+        "psi": 0.0015,
+        "status": "Stable \u2013 no significant drift"
+      }
+    },
+    "overall_status": "Stable"
+  },
+  "pipeline": {
+    "elapsed_seconds": 63.8,
+    "datasets_processed": 5
+  }
+}

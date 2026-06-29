@@ -1,0 +1,21 @@
+{
+  "columns": {
+    "quantity": {
+      "psi": 0.0002,
+      "status": "Stable \u2013 no significant drift"
+    },
+    "unit_price": {
+      "psi": 0.0014,
+      "status": "Stable \u2013 no significant drift"
+    },
+    "revenue": {
+      "psi": 0.0038,
+      "status": "Stable \u2013 no significant drift"
+    },
+    "discount_pct": {
+      "psi": 0.0015,
+      "status": "Stable \u2013 no significant drift"
+    }
+  },
+  "overall_status": "Stable"
+}

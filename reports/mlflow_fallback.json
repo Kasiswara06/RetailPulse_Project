@@ -1,0 +1,83 @@
+[
+  {
+    "experiment": "segmentation",
+    "params": {
+      "n_clusters": 6
+    },
+    "metrics": {
+      "n_customers": 3000
+    }
+  },
+  {
+    "experiment": "segmentation",
+    "params": {
+      "n_clusters": 6
+    },
+    "metrics": {
+      "n_customers": 3000
+    }
+  },
+  {
+    "experiment": "forecasting",
+    "params": {
+      "horizon": 30
+    },
+    "metrics": {
+      "mape": 74.19054793262292
+    }
+  },
+  {
+    "experiment": "segmentation",
+    "params": {
+      "n_clusters": 6
+    },
+    "metrics": {
+      "n_customers": 3000
+    }
+  },
+  {
+    "experiment": "forecasting",
+    "params": {
+      "horizon": 30
+    },
+    "metrics": {
+      "mape": 74.21418816091317
+    }
+  },
+  {
+    "experiment": "segmentation",
+    "params": {
+      "n_clusters": 6
+    },
+    "metrics": {
+      "n_customers": 3000
+    }
+  },
+  {
+    "experiment": "forecasting",
+    "params": {
+      "horizon": 30
+    },
+    "metrics": {
+      "mape": 74.11753684556184
+    }
+  },
+  {
+    "experiment": "segmentation",
+    "params": {
+      "n_clusters": 6
+    },
+    "metrics": {
+      "n_customers": 3000
+    }
+  },
+  {
+    "experiment": "forecasting",
+    "params": {
+      "horizon": 30
+    },
+    "metrics": {
+      "mape": 74.15343553021053
+    }
+  }
+]
