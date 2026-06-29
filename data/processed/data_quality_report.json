@@ -1,0 +1,401 @@
+{
+  "churn_dataset": {
+    "rows": 3000,
+    "columns": [
+      "customer_id",
+      "age",
+      "gender",
+      "income",
+      "region",
+      "last_order_date",
+      "days_since_last_order",
+      "churn",
+      "frequency",
+      "monetary"
+    ],
+    "null_counts": {
+      "customer_id": 0,
+      "age": 0,
+      "gender": 0,
+      "income": 0,
+      "region": 0,
+      "last_order_date": 0,
+      "days_since_last_order": 0,
+      "churn": 0,
+      "frequency": 0,
+      "monetary": 0
+    },
+    "dtypes": {
+      "customer_id": "object",
+      "age": "int64",
+      "gender": "object",
+      "income": "int64",
+      "region": "object",
+      "last_order_date": "datetime64[ns]",
+      "days_since_last_order": "datetime64[ns]",
+      "churn": "int64",
+      "frequency": "int64",
+      "monetary": "float64"
+    },
+    "numeric_summary": {
+      "age": {
+        "count": 3000.0,
+        "mean": 45.584,
+        "min": 18.0,
+        "25%": 32.0,
+        "50%": 45.0,
+        "75%": 59.0,
+        "max": 74.0,
+        "std": 16.19937500595402
+      },
+      "income": {
+        "count": 3000.0,
+        "mean": 55402.87633333333,
+        "min": 15000.0,
+        "25%": 42017.25,
+        "50%": 55620.5,
+        "75%": 68319.25,
+        "max": 120421.0,
+        "std": 19383.751327427508
+      },
+      "last_order_date": {
+        "count": 3000,
+        "mean": "2024-12-17 00:46:33.600000",
+        "min": "2024-08-18 00:00:00",
+        "25%": "2024-12-12 00:00:00",
+        "50%": "2024-12-21 00:00:00",
+        "75%": "2024-12-27 00:00:00",
+        "max": "2024-12-30 00:00:00",
+        "std": NaN
+      },
+      "days_since_last_order": {
+        "count": 3000,
+        "mean": "1969-12-31 23:59:59.999999923",
+        "min": "1969-12-31 23:59:59.999999910",
+        "25%": "1969-12-31 23:59:59.999999913",
+        "50%": "1969-12-31 23:59:59.999999919",
+        "75%": "1969-12-31 23:59:59.999999928",
+        "max": "1970-01-01 00:00:00.000000044",
+        "std": NaN
+      },
+      "churn": {
+        "count": 3000.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 0.0,
+        "std": 0.0
+      },
+      "frequency": {
+        "count": 3000.0,
+        "mean": 35.833333333333336,
+        "min": 19.0,
+        "25%": 32.0,
+        "50%": 36.0,
+        "75%": 40.0,
+        "max": 59.0,
+        "std": 5.8492985608053925
+      },
+      "monetary": {
+        "count": 3000.0,
+        "mean": 27228.151566666667,
+        "min": 9559.84,
+        "25%": 23464.46,
+        "50%": 27025.09,
+        "75%": 30781.15,
+        "max": 50005.81,
+        "std": 5554.932593897481
+      }
+    }
+  },
+  "customers": {
+    "rows": 3000,
+    "columns": [
+      "customer_id",
+      "age",
+      "gender",
+      "income",
+      "region",
+      "signup_date",
+      "preferred_category"
+    ],
+    "null_counts": {
+      "customer_id": 0,
+      "age": 0,
+      "gender": 0,
+      "income": 0,
+      "region": 0,
+      "signup_date": 0,
+      "preferred_category": 0
+    },
+    "dtypes": {
+      "customer_id": "object",
+      "age": "int64",
+      "gender": "object",
+      "income": "int64",
+      "region": "object",
+      "signup_date": "datetime64[ns]",
+      "preferred_category": "object"
+    },
+    "numeric_summary": {
+      "age": {
+        "count": 3000.0,
+        "mean": 45.584,
+        "min": 18.0,
+        "25%": 32.0,
+        "50%": 45.0,
+        "75%": 59.0,
+        "max": 74.0,
+        "std": 16.19937500595402
+      },
+      "income": {
+        "count": 3000.0,
+        "mean": 55402.87633333333,
+        "min": 15000.0,
+        "25%": 42017.25,
+        "50%": 55620.5,
+        "75%": 68319.25,
+        "max": 120421.0,
+        "std": 19383.751327427508
+      },
+      "signup_date": {
+        "count": 3000,
+        "mean": "2022-07-16 08:11:31.199999744",
+        "min": "2022-01-01 00:00:00",
+        "25%": "2022-04-05 00:00:00",
+        "50%": "2022-07-14 12:00:00",
+        "75%": "2022-10-27 00:00:00",
+        "max": "2023-02-04 00:00:00",
+        "std": NaN
+      }
+    }
+  },
+  "inventory": {
+    "rows": 800,
+    "columns": [
+      "product_id",
+      "store_id",
+      "stock",
+      "reorder_point",
+      "lead_time_days",
+      "last_updated"
+    ],
+    "null_counts": {
+      "product_id": 0,
+      "store_id": 0,
+      "stock": 0,
+      "reorder_point": 0,
+      "lead_time_days": 0,
+      "last_updated": 0
+    },
+    "dtypes": {
+      "product_id": "object",
+      "store_id": "object",
+      "stock": "int64",
+      "reorder_point": "int64",
+      "lead_time_days": "datetime64[ns]",
+      "last_updated": "datetime64[ns]"
+    },
+    "numeric_summary": {
+      "stock": {
+        "count": 800.0,
+        "mean": 100.945,
+        "min": 0.0,
+        "25%": 52.75,
+        "50%": 102.5,
+        "75%": 149.0,
+        "max": 199.0,
+        "std": 56.35529588439557
+      },
+      "reorder_point": {
+        "count": 800.0,
+        "mean": 30.0375,
+        "min": 10.0,
+        "25%": 21.0,
+        "50%": 30.0,
+        "75%": 39.0,
+        "max": 49.0,
+        "std": 10.43178419071983
+      },
+      "lead_time_days": {
+        "count": 800,
+        "mean": "1970-01-01 00:00:00.000000008",
+        "min": "1970-01-01 00:00:00.000000003",
+        "25%": "1970-01-01 00:00:00.000000005",
+        "50%": "1970-01-01 00:00:00.000000008",
+        "75%": "1970-01-01 00:00:00.000000010",
+        "max": "1970-01-01 00:00:00.000000013",
+        "std": NaN
+      },
+      "last_updated": {
+        "count": 800,
+        "mean": "2024-12-31 00:00:00",
+        "min": "2024-12-31 00:00:00",
+        "25%": "2024-12-31 00:00:00",
+        "50%": "2024-12-31 00:00:00",
+        "75%": "2024-12-31 00:00:00",
+        "max": "2024-12-31 00:00:00",
+        "std": NaN
+      }
+    }
+  },
+  "products_catalog": {
+    "rows": 80,
+    "columns": [
+      "product_id",
+      "category",
+      "base_price",
+      "cost",
+      "reorder_point",
+      "lead_time_days"
+    ],
+    "null_counts": {
+      "product_id": 0,
+      "category": 0,
+      "base_price": 0,
+      "cost": 0,
+      "reorder_point": 0,
+      "lead_time_days": 0
+    },
+    "dtypes": {
+      "product_id": "object",
+      "category": "object",
+      "base_price": "float64",
+      "cost": "float64",
+      "reorder_point": "int64",
+      "lead_time_days": "datetime64[ns]"
+    },
+    "numeric_summary": {
+      "base_price": {
+        "count": 80.0,
+        "mean": 253.667375,
+        "min": 8.64,
+        "25%": 144.26999999999998,
+        "50%": 261.34000000000003,
+        "75%": 360.1775,
+        "max": 496.23,
+        "std": 133.22589918833776
+      },
+      "cost": {
+        "count": 80.0,
+        "mean": 118.95987500000001,
+        "min": 4.53,
+        "25%": 62.6725,
+        "50%": 112.94,
+        "75%": 161.66750000000002,
+        "max": 303.74,
+        "std": 72.02779926578893
+      },
+      "reorder_point": {
+        "count": 80.0,
+        "mean": 30.0375,
+        "min": 10.0,
+        "25%": 21.0,
+        "50%": 30.0,
+        "75%": 39.0,
+        "max": 49.0,
+        "std": 10.491037464836717
+      },
+      "lead_time_days": {
+        "count": 80,
+        "mean": "1970-01-01 00:00:00.000000008",
+        "min": "1970-01-01 00:00:00.000000003",
+        "25%": "1970-01-01 00:00:00.000000005",
+        "50%": "1970-01-01 00:00:00.000000008",
+        "75%": "1970-01-01 00:00:00.000000010",
+        "max": "1970-01-01 00:00:00.000000013",
+        "std": NaN
+      }
+    }
+  },
+  "sales_transactions": {
+    "rows": 30000,
+    "columns": [
+      "transaction_id",
+      "order_date",
+      "customer_id",
+      "product_id",
+      "store_id",
+      "quantity",
+      "unit_price",
+      "revenue",
+      "discount_pct"
+    ],
+    "null_counts": {
+      "transaction_id": 0,
+      "order_date": 0,
+      "customer_id": 0,
+      "product_id": 0,
+      "store_id": 0,
+      "quantity": 0,
+      "unit_price": 0,
+      "revenue": 0,
+      "discount_pct": 0
+    },
+    "dtypes": {
+      "transaction_id": "object",
+      "order_date": "datetime64[ns]",
+      "customer_id": "object",
+      "product_id": "object",
+      "store_id": "object",
+      "quantity": "int64",
+      "unit_price": "float64",
+      "revenue": "float64",
+      "discount_pct": "float64"
+    },
+    "numeric_summary": {
+      "order_date": {
+        "count": 30000,
+        "mean": "2024-01-24 06:19:52.319999744",
+        "min": "2023-01-01 00:00:00",
+        "25%": "2023-08-01 00:00:00",
+        "50%": "2023-12-30 00:00:00",
+        "75%": "2024-07-29 00:00:00",
+        "max": "2024-12-30 00:00:00",
+        "std": NaN
+      },
+      "quantity": {
+        "count": 30000.0,
+        "mean": 2.998266666666667,
+        "min": 1.0,
+        "25%": 2.0,
+        "50%": 3.0,
+        "75%": 4.0,
+        "max": 5.0,
+        "std": 1.412868312612508
+      },
+      "unit_price": {
+        "count": 30000.0,
+        "mean": 254.69072233333333,
+        "min": 7.78,
+        "25%": 147.24,
+        "50%": 261.27,
+        "75%": 364.8,
+        "max": 545.85,
+        "std": 133.33543824759414
+      },
+      "revenue": {
+        "count": 30000.0,
+        "mean": 762.0230753333334,
+        "min": 7.79,
+        "25%": 317.82,
+        "50%": 632.8,
+        "75%": 1110.0674999999999,
+        "max": 2724.75,
+        "std": 568.1032279283186
+      },
+      "discount_pct": {
+        "count": 30000.0,
+        "mean": 0.12492233333333333,
+        "min": 0.0,
+        "25%": 0.06,
+        "50%": 0.12,
+        "75%": 0.19,
+        "max": 0.25,
+        "std": 0.07222894988803973
+      }
+    }
+  }
+}
